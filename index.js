@@ -14,7 +14,7 @@ function submitEntry(event) {
 
     var createEntry = document.createElement("div");
     createEntry.className = "entry-text";
-    var createTitle = document.createElement("h1");
+    var createTitle = document.createElement("h3");
     createTitle.className = "post-title";
     createTitle.innerText = entryTitle.value;
     createEntry.appendChild(createTitle);

@@ -82,11 +82,17 @@ button:hover {
     text-align: left;
     padding: 16px;
     margin-top: 10px;
+    color: #0a0f0d;
+}
+
+#entries h2 {
+    text-align: center;
 }
 
 .post-title {
     color: #0a0f0d;
-    text-align: left;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .entry-paragraph {
